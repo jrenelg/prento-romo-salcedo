@@ -1,12 +1,9 @@
 import React, { Fragment } from 'react'
 import HeaderBotton from '../../../components/HeaderBottom'
-import HeaderTop from '../../../components/HeaderTop'
 import Breadcumb from '../../../components/Breadcumb'
 import Service from '../../../components/Service'
 import ServiceArea from '../../../components/ServiceArea'
 import Testmonial from "../../../components/Testmonial";
-import PricingTable from "../../../components/PricingTable";
-import NewsLetter from '../../../components/Newsletter'
 import FooterArea from '../../../components/FooterArea'
 // images
 import breadcumb from '../../../images/breadcumb/1.jpg'
@@ -60,8 +57,7 @@ const PracticePage = () => {
     return (
         <Fragment>
             <header className="headerArea">
-                <HeaderTop className="headerTop" />
-                <HeaderBotton className="headerBottomArea headerBottomAreaStyelTwo" />
+                <HeaderBotton className="headerBottomArea" />
             </header>
             <Breadcumb 
                 className="breadcumbArea"
@@ -71,21 +67,13 @@ const PracticePage = () => {
             />
             <Service className="serviceArea mt-0" />
             <ServiceArea
-                className="ourServiceArea ourServiceAreaStyleThree bgFFF"
+                className="ourServiceArea"
                 title="How Can We Help You"
                 subTitle="Area Of Practice"
                 services={services}
             />
-            <PricingTable 
-                className="pricingTableArea"
-                title="Pricing Table"
-                subTitle="Our Pricing Plan"
-            />
             <Testmonial
                 className="testmonialArea pt100"
-            />
-            <NewsLetter
-                className="newsLetterArea"
             />
             <FooterArea/>
         </Fragment>

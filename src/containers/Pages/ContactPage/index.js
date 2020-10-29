@@ -19,8 +19,7 @@ const ContactPage = () => {
     return (
         <Fragment>
             <header className="headerArea">
-                <HeaderTop className="headerTop" />
-                <HeaderBotton className="headerBottomArea headerBottomAreaStyelTwo" />
+                <HeaderBotton className="headerBottomArea" />
             </header>
             <Breadcumb
                 className="breadcumbArea"
@@ -58,10 +57,6 @@ const ContactPage = () => {
                     </div>
                 </div>
             </div>
-
-            <NewsLetter
-                className="newsLetterArea"
-            />
             <FooterArea />
         </Fragment>
     )

@@ -31,40 +31,9 @@ const HeaderBottom = props => {
                         </div>
                         <div className={responsive ? "col-lg-8 responsiveWrapper active" : "col-lg-8 responsiveWrapper"}>
                             <ul className="mainMenuWrap">
-                                <li><NavLink exact to='/'>Home</NavLink>
-                                    <ul className="subMenu">
-                                        <li><NavLink exact to='/'>Home One</NavLink></li>
-                                        <li><NavLink exact to='/home-two'>Home Two</NavLink></li>
-                                        <li><NavLink exact to='/home-three'>Home Three</NavLink></li>
-                                    </ul>
-                                </li>
+                                <li><NavLink exact to='/'>Home</NavLink></li>
                                 <li><NavLink exact to='/about'>About</NavLink></li>
-                                <li><NavLink exact to='/practice'>Practice</NavLink>
-                                    <ul className="subMenu">
-                                        <li><NavLink exact to='/practice'>Practice areas</NavLink></li>
-                                        <li><NavLink exact to='/practice-details'>Practice areas single</NavLink></li>
-                                    </ul>
-                                </li>
-
-                                <li><NavLink exact to='/case-stadies'>Cases</NavLink>
-                                    <ul className="subMenu">
-                                        <li><NavLink exact to='/case-stadies'>Cases</NavLink></li>
-                                        <li><NavLink exact to='/case-stadies-details'>Case single</NavLink></li>
-                                    </ul>
-                                </li>
-                                <li><NavLink exact to='/blog-left'>News</NavLink>
-                                    <ul className="subMenu">
-                                        <li><NavLink exact to='/blog-left'>Blog left sidebar</NavLink></li>
-                                        <li><NavLink exact to='/blog-right'>Blog Right sidebar</NavLink></li>
-                                        <li><NavLink exact to='/blog-fullwidth'>Blog FullWidth</NavLink></li>
-                                    </ul>
-                                </li>
-                                <li><NavLink exact to='/attorneys'>Attorneys</NavLink>
-                                    <ul className="subMenu">
-                                        <li><NavLink exact to='/attorneys'>Attorneys</NavLink></li>
-                                        <li><NavLink exact to='/attorneys-single'>Attorneys single</NavLink></li>
-                                    </ul>
-                                </li>
+                                <li><NavLink exact to='/practice'>Practice</NavLink></li>
                                 <li><NavLink exact to='/contact'>Contact</NavLink></li>
                             </ul>
                         </div>

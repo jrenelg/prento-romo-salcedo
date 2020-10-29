@@ -143,7 +143,7 @@ class Form extends Component {
                     <div className="col-sm-6 col-12">
                         <div className="formInput">
                             <input
-                                placeholder="Your Name"
+                                placeholder="Nombre"
                                 value={this.state.name}
                                 name="name"
                                 onChange={this.changeHandler}
@@ -156,7 +156,7 @@ class Form extends Component {
                     <div className="col-sm-6 col-12">
                         <div className="formInput">
                             <input
-                                placeholder="Phone"
+                                placeholder="Teléfono"
                                 value={this.state.phone}
                                 name="phone"
                                 onChange={this.changeHandler}
@@ -182,7 +182,7 @@ class Form extends Component {
                             {this.props.addressInfo ? (
                                 <div className="formInput">
                                     <input
-                                        placeholder="Address"
+                                        placeholder="Direacción"
                                         value={this.state.address}
                                         name="address"
                                         onChange={this.changeHandler}
@@ -214,13 +214,13 @@ class Form extends Component {
                                 className="form-control"
                                 value={this.state.description}
                                 onChange={this.changeHandler}
-                                placeholder="Case Description..."
+                                placeholder="Mensaje..."
                                 name="description" />
                             {this.state.error.description && <p>{this.state.error.description}</p>}
                         </div>
                     </div>
                     <div className="col-12">
-                        <button type="submit">Appointment</button>
+                        <button type="submit">Enviar</button>
                     </div>
                 </div>
             </form>
