@@ -12,27 +12,14 @@ import breadcumb from '../../../images/breadcumb/1.jpg'
 import './style.scss'
 const aboutText = [
     { text: 'Brindar servicios legales especializados en el área Corporativa, de Propiedad Industrial e Intelectual con excelencia profesional, visión integral, trato personalizado y compromiso ético.' },
-    { text: 'Ser una firma legal líder a nivel nacional en el área de Derecho Corporativo, de Propiedad Industrial e Intelectual.' },
-    { text: 'Disciplina: Seguimos un plan trazado a conciencia, con objetivos claros y con perseverancia hasta alcanzarlos.' },
-    { text: 'Pro actividad: Conscientes que la suerte es el encuentro entre la preparación y la oportunidad, nos preparamos cada día para prever y actuar de manera estratégica y eficaz.' },
-    { text: 'Responsabilidad: Somos responsables de nuestras acciones y omisiones entre los miembros de nuestra firma, con nuestros clientes y con el entorno social.' },
-    { text: 'Aprendizaje: Conscientes de la complejidad y velocidad con la que cambia nuestro mundo, nos preparamos con estudio profundo sobre la actualidad y con vocación de servicio.' },
-    { text: 'Calidad: Valor agregado a las expectativas del cliente.' },
-    { text: 'Prontitud: Valoramos el tiempo y actuamos en consecuencia.' },   
+  
 ]
 const aboutText2 = [
-    { text: 'Brindar servicios legales especializados en el área Corporativa, de Propiedad Industrial e Intelectual con excelencia profesional, visión integral, trato personalizado y compromiso ético.' },
     { text: 'Ser una firma legal líder a nivel nacional en el área de Derecho Corporativo, de Propiedad Industrial e Intelectual.' },
-    { text: 'Disciplina: Seguimos un plan trazado a conciencia, con objetivos claros y con perseverancia hasta alcanzarlos.' },
-    { text: 'Pro actividad: Conscientes que la suerte es el encuentro entre la preparación y la oportunidad, nos preparamos cada día para prever y actuar de manera estratégica y eficaz.' },
-    { text: 'Responsabilidad: Somos responsables de nuestras acciones y omisiones entre los miembros de nuestra firma, con nuestros clientes y con el entorno social.' },
-    { text: 'Aprendizaje: Conscientes de la complejidad y velocidad con la que cambia nuestro mundo, nos preparamos con estudio profundo sobre la actualidad y con vocación de servicio.' },
-    { text: 'Calidad: Valor agregado a las expectativas del cliente.' },
-    { text: 'Prontitud: Valoramos el tiempo y actuamos en consecuencia.' },   
+    
 ]
 const aboutText3 = [
-    { text: 'Brindar servicios legales especializados en el área Corporativa, de Propiedad Industrial e Intelectual con excelencia profesional, visión integral, trato personalizado y compromiso ético.' },
-    { text: 'Ser una firma legal líder a nivel nacional en el área de Derecho Corporativo, de Propiedad Industrial e Intelectual.' },
+
     { text: 'Disciplina: Seguimos un plan trazado a conciencia, con objetivos claros y con perseverancia hasta alcanzarlos.' },
     { text: 'Pro actividad: Conscientes que la suerte es el encuentro entre la preparación y la oportunidad, nos preparamos cada día para prever y actuar de manera estratégica y eficaz.' },
     { text: 'Responsabilidad: Somos responsables de nuestras acciones y omisiones entre los miembros de nuestra firma, con nuestros clientes y con el entorno social.' },
@@ -44,8 +31,8 @@ const aboutText3 = [
 const services = [
     {
         icon: 'flaticon-parents',
-        title: 'Family Law',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Automotriz',
+        content: 'Proveedores de países como España, Bélgica, Japón y Canadá.'
     },
     {
         icon: 'flaticon-wounded',
@@ -76,7 +63,7 @@ const services = [
 
 const breadcumbMenu = [
     {name:'Home',route:'/'},
-    {name:'About us'}
+    {name:'Nosotros'}
 ]
 
 const AboutPage = () => {
@@ -97,11 +84,11 @@ const AboutPage = () => {
                 title="Misión"
                 subTitle="Romo, Salcedo & Asociados"
                 pragraphs={aboutText}
-                title2="Misión"
-                subTitle2="Romo, Salcedo & Asociados"
+                title2="Visión"
+                subTitle2=""
                 pragraphs2={aboutText2}
-                title3="Misión"
-                subTitle3="Romo, Salcedo & Asociados"
+                title3="Valores"
+                subTitle3=""
                 pragraphs3={aboutText3}
                 images={about}
                 orderLast="order-last"

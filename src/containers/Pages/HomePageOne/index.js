@@ -27,16 +27,16 @@ const aboutText = [
 const heroSliders = [
     {
         images: 'slideWrapperOne',
-        title: 'We Fight For Your Justice',
-        subTitle: 'As Like A Friend.',
-        text: 'The Most Talented Law Frim',
+        title: 'Somos especialista ',
+        subTitle: 'en orientar y asesorar.',
+        text: 'Romo, Salcedo & Asociados',
         button: 'Contact us now'
     },
     {
         images: 'slideWrapperTwo',
-        title: 'We Fight For Your Justice',
-        subTitle: 'As Like A Friend.',
-        text: 'The Most Talented Law Frim',
+        title: 'Acompañamiento',
+        subTitle: 'legal personalizado.',
+        text: 'Romo, Salcedo & Asociados',
         button: 'Contact us now'
     },
 ]

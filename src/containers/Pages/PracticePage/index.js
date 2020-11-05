@@ -18,32 +18,62 @@ const aboutText = [
 const services = [
     {
         icon: 'flaticon-parents',
-        title: 'Family Law',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Automitriz',
+        content: 'Proveedores de países como España, Bélgica, Japón y Canadá.'
     },
     {
         icon: 'flaticon-wounded',
-        title: 'Personal Injury',
+        title: 'Agronegocios',
         content: 'There are many variations of passages of Lorem '
     },
     {
         icon: 'flaticon-employee',
-        title: 'Business Law',
+        title: 'Construcción',
         content: 'There are many variations of passages of Lorem '
     },
     {
         icon: 'flaticon-thief',
-        title: 'Criminal Law',
+        title: 'Arquitectura Empresarial',
         content: 'There are many variations of passages of Lorem '
     },
     {
         icon: 'flaticon-university-graduate-hat',
-        title: 'Education Law',
+        title: 'Capital Humano',
         content: 'There are many variations of passages of Lorem '
     },
     {
         icon: 'flaticon-house',
-        title: 'Real Estate Law',
+        title: 'Comunicación y Prensa',
+        content: 'There are many variations of passages of Lorem '
+    },
+    {
+        icon: 'flaticon-house',
+        title: 'Marketing',
+        content: 'There are many variations of passages of Lorem '
+    },
+    {
+        icon: 'flaticon-house',
+        title: 'Adquisición de Negocios',
+        content: 'There are many variations of passages of Lorem '
+    },
+    {
+        icon: 'flaticon-house',
+        title: 'Fusión de Empresas',
+        content: 'There are many variations of passages of Lorem '
+    },
+    {
+        icon: 'flaticon-house',
+        title: 'Due Diligence',
+        content: 'There are many variations of passages of Lorem '
+    },
+    {
+        icon: 'flaticon-house',
+        title: 'Modelos Industriales',
+        content: 'There are many variations of passages of Lorem '
+    },
+    {
+        icon: 'flaticon-house',
+        title: 'Energía Alternativa',
         content: 'There are many variations of passages of Lorem '
     },
 ]
@@ -68,8 +98,8 @@ const PracticePage = () => {
             <Service className="serviceArea mt-0" />
             <ServiceArea
                 className="ourServiceArea"
-                title="How Can We Help You"
-                subTitle="Area Of Practice"
+                title="Mercado Nacional e Internacional"
+                subTitle="Asesoría a Clientes de Distintos Sectores del"
                 services={services}
             />
             <Testmonial

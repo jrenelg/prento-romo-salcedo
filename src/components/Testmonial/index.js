@@ -12,14 +12,14 @@ const sliders = [
     {
         text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,',
         images: testmonial2,
-        title: 'Jhony Goaver',
-        subTitle: 'CEO of American BDS'
+        title: 'José Hernández',
+        subTitle: 'Gerente, Aroindustrias Patito'
     },
     {
         text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,',
         images: testmonial2,
-        title: 'Jhony Goaver',
-        subTitle: 'CEO of American BDS'
+        title: 'Alejandro García',
+        subTitle: 'Director Comercial, CEMEX'
     }
 ]
 const settings = {
@@ -44,8 +44,8 @@ const Testmonial = ({ className }) => {
                     </div>
                     <div className="col-lg-7 offset-lg-1 col-md-6">
                         <div className="testimonialContent">
-                            <span>What People Say</span>
-                            <h2>Client Testimonial</h2>
+                            <span>Nuestros Clientes Opinan</span>
+                            <h2>Testimoniales</h2>
                             <Slider className="testmonialSlider" {...settings}>
                                 {sliders.map((slider, i) => (
                                     <div key={i} className="slideItem">

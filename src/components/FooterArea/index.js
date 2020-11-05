@@ -4,30 +4,29 @@ import logo from '../../images/logo/logo.png'
 import './style.scss'
 const footerLinks = [
     {
-        title: 'Quick Link', menus: [
-            { name: 'Home', route: '/' },
-            { name: 'Practice Area', route: 'practice' },
-            { name: 'Our Team', route: 'team' },
-            { name: 'Recent Case', route: 'case' },
-            { name: 'Our Blog', route: 'blog' },
+        title: 'Menú', menus: [
+            { name: 'Inicio', route: '/' },
+            { name: 'Nosotros', route: 'practice' },
+            { name: 'Equipo', route: 'team' },
+            { name: 'Servicios', route: 'case' },
+            { name: 'Contacto', route: 'blog' },
         ]
     },
     {
-        title: 'Practice Area', menus: [
-            { name: 'Family Law', route: 'home' },
-            { name: 'Criminal Law', route: 'home' },
-            { name: 'Parsonal Injury', route: 'home' },
-            { name: 'Real Estate Law', route: 'home' },
-            { name: 'Business Law', route: 'home' },
+        title: 'Especialidad Legal', menus: [
+            { name: 'Derecho Corporativo', route: 'home' },
+            { name: 'Propiedad Industrial', route: 'home' },
+            { name: 'Propiedad Intelectual', route: 'home' },
+
         ]
     },
     {
-        title: 'Contact Us', menus: [
-            { name: 'Head Office Address' },
-            { name: '121 King Street, Melbourne West,', },
-            { name: 'Australia', },
-            { name: 'Phone: 888 123-4587', },
-            { name: 'Email: info@example.com', },
+        title: 'Contáctanos', menus: [
+            { name: 'Calzada La Misión 210' },
+            { name: 'Misión del Campanario', },
+            { name: 'Aguascalientes, Ags.', },
+            { name: 'T. 449 116 05 86', },
+            { name: 'Email: fernanda@romosalcedo.com', },
         ]
     },
 ]
@@ -43,7 +42,7 @@ const FooterArea = () => {
                                 <Link to="/">
                                     <img src={logo} alt="" />
                                 </Link>
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+                                <p>10 años especializados en Derecho Corporativo, Propiedad Industrial e Intelectual.</p>
                             </div>
                         </div>
                         {footerLinks.map((menu, i) => (
@@ -66,11 +65,10 @@ const FooterArea = () => {
                     <div className="footerBottomContent">
                         <div className="row">
                             <div className="col-md-8 col-sm-10 col-12">
-                                <span>Privacy Policy | © 2018 Barristar. All rights reserved</span>
+                                <span>Políticas de Privacidad | © 2020 Romo, Salcedo & Asociados. Todos los Derechos Reservados</span>
                             </div>
                             <div className="col-md-4 col-sm-2 col-12">
                                 <ul className="socialListFooter">
-                                    <li><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
                                     <li><a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
                                     <li><a href="#"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                 </ul>
