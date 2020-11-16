@@ -17,62 +17,62 @@ const aboutText = [
 
 const services = [
     {
-        icon: 'flaticon-parents',
+        icon: 'icon-f118',
         title: 'Automitriz',
         content: 'Proveedores de países como España, Bélgica, Japón y Canadá.'
     },
     {
-        icon: 'flaticon-wounded',
+        icon: 'icon-f119',
         title: 'Agronegocios',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-employee',
+        icon: 'icon-f120',
         title: 'Construcción',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-thief',
+        icon: 'icon-f121',
         title: 'Arquitectura Empresarial',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-university-graduate-hat',
+        icon: 'icon-f122',
         title: 'Capital Humano',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-house',
+        icon: 'icon-f123',
         title: 'Comunicación y Prensa',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-house',
+        icon: 'icon-f124',
         title: 'Marketing',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-house',
+        icon: 'icon-f125',
         title: 'Adquisición de Negocios',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-house',
+        icon: 'icon-f126',
         title: 'Fusión de Empresas',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-house',
+        icon: 'icon-f127',
         title: 'Due Diligence',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-house',
+        icon: 'icon-f128',
         title: 'Modelos Industriales',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-house',
+        icon: 'icon-f129',
         title: 'Energía Alternativa',
         content: 'There are many variations of passages of Lorem '
     },

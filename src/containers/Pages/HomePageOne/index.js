@@ -43,77 +43,77 @@ const heroSliders = [
 
 const services = [
     {
-        icon: 'flaticon-parents',
+        icon: 'icon-f103',
         title: 'Creación de Empresas',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-wounded',
+        icon: 'icon-f104',
         title: 'Contratos Mercantiles',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-employee',
+        icon: 'icon-f105',
         title: 'Actas de Asamblea',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-thief',
+        icon: 'icon-f106',
         title: 'Contratos de Confidencialidad',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-university-graduate-hat',
+        icon: 'icon-f107',
         title: 'Libros Corporativos',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-house',
+        icon: 'icon-f108',
         title: 'Contratos en Materia Autoral',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-parents',
+        icon: 'icon-f109',
         title: 'Términos y Condiciones para Sitios Web',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-wounded',
+        icon: 'icon-f110',
         title: 'Certificados de Licitud de Título y Contenido ',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-employee',
+        icon: 'icon-f111',
         title: 'Esquemas de Protección Accionaria',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-thief',
+        icon: 'icon-f112',
         title: 'Esquemas de Secreto Industrial',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-university-graduate-hat',
+        icon: 'icon-f113',
         title: 'Contratos de Franquicia',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-house',
+        icon: 'icon-f114',
         title: 'Registro de Marca',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-thief',
+        icon: 'icon-f115',
         title: 'Registro de Patentes',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-university-graduate-hat',
+        icon: 'icon-f116',
         title: 'Transmisión de Derechos',
         content: 'There are many variations of passages of Lorem '
     },
     {
-        icon: 'flaticon-house',
+        icon: 'icon-f117',
         title: 'Registro Nacional de Inversión Extranjera',
         content: 'Cumplimieto de obligaciones '
     },
