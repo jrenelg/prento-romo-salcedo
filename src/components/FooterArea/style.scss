@@ -1,5 +1,5 @@
 .footerArea{
-    background: #ee2726;
+    background: #f5f5f5;
     .footerTopArea{
         padding: 100px 0px 70px;
         .footerLogo{
@@ -12,14 +12,14 @@
                 }
             }
             p{
-                color: #ddd;
+                color: #282e3f;
             }
         }
         .footerWrap{
             margin-bottom: 30px;
             h3{
                 font-size: 28px;
-                color: #fff;
+                color: #ee2726;
                 margin-bottom: 30px;
                 @media (max-width:767px) {
                     font-size: 24px;
@@ -28,12 +28,12 @@
             ul{
                 li{
                     margin-bottom: 10px;
-                    color: #ddd;
+                    color: #282e3f;
                     &:last-child{
                         margin-bottom: 0;
                     }
                     a{
-                        color: #ddd;
+                        color: #282e3f;
                         display: inline-block;
                         &:hover{
                             color: #c0b596;
@@ -52,7 +52,7 @@
             }
             span{
                 display: block;
-                color: #ddd;
+                color: #282e3f;
                 font-size: 16px;
                 font-family: 'Playfair Display', serif;
                 @media (max-width:576px) {
@@ -69,7 +69,7 @@
                 li{
                     margin-left: 15px;
                     a{
-                        color: #ddd;
+                        color: #ee2726;
                         &:hover{
                             color: #c0b596;
                         }

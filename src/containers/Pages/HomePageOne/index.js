@@ -152,7 +152,7 @@ const HomePageOne = () => {
                 services={services}
             />
             <Testmonial
-                className="testmonialArea"
+                className="testmonialArea pt100"
             />
             <FooterArea/>
         </Fragment>

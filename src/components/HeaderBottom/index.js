@@ -1,6 +1,6 @@
 import React, { useState, Fragment } from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import logo from '../../images/logo/logo.png'
+import logo from '../../images/logo/RS_logo.png'
 import './style.scss'
 
 const HeaderBottom = props => {

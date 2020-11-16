@@ -39,9 +39,6 @@ const AboutRomo = ({ subTitle, title, videoId, className, signature, pragraphs,i
                             {pragraphs3.map((pragraph, i) => (
                                 <p key={i}>{pragraph.text}</p>
                             ))}
-                            <div className="btnStyle">
-                                <Link to='/about'>MÁS DE NOSOTROS</Link>
-                            </div>
                             {signature && <div className="signature">
                                 <img src={signature} alt="" />
                             </div>}
