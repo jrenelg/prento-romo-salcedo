@@ -9,7 +9,9 @@ import ContactArea from '../../../components/ContactArea'
 
 // images
 import breadcumb from '../../../images/breadcumb/1.jpg'
-import team from '../../../images/Attorneys-single/1.jpg'
+import team1 from '../../../images/Attorneys-single/t1.jpg'
+import team2 from '../../../images/Attorneys-single/t2.jpg'
+import team3 from '../../../images/Attorneys-single/t3.jpg'
 import portfolio1 from '../../../images/studies/1.jpg'
 import portfolio2 from '../../../images/studies/2.jpg'
 import portfolio3 from '../../../images/studies/3.jpg'
@@ -63,7 +65,7 @@ const SingleTeamPage = () => {
                                 <div className="col-md-6 col-12">
                                     <div className="singleTeamImgWrap">
                                         <div className="singleTeamImg">
-                                            <img src={team} alt="" />
+                                            <img src={team1} alt="" />
                                         </div>
                                         <h4>Lily Watson</h4>
                                     </div>
@@ -115,7 +117,7 @@ const SingleTeamPage = () => {
                                 <div className="col-md-6 col-12">
                                     <div className="singleTeamImgWrap">
                                         <div className="singleTeamImg">
-                                            <img src={team} alt="" />
+                                            <img src={team2} alt="" />
                                         </div>
                                         <h4>Lily Watson</h4>
                                     </div>
@@ -167,7 +169,7 @@ const SingleTeamPage = () => {
                                 <div className="col-md-6 col-12">
                                     <div className="singleTeamImgWrap">
                                         <div className="singleTeamImg">
-                                            <img src={team} alt="" />
+                                            <img src={team3} alt="" />
                                         </div>
                                         <h4>Lily Watson</h4>
                                     </div>
