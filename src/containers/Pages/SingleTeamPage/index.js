@@ -47,8 +47,7 @@ const SingleTeamPage = () => {
     return (
         <Fragment>
             <header className="headerArea">
-                <HeaderTop className="headerTop" />
-                <HeaderBotton className="headerBottomArea headerBottomAreaStyelTwo" />
+                <HeaderBotton className="headerBottomArea" />
             </header>
             <Breadcumb
                 className="breadcumbArea"
@@ -108,6 +107,110 @@ const SingleTeamPage = () => {
                     </div>
                 </div>
             </div>
+            <div className='singleTeamArea'>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-10 offset-lg-1 col-12">
+                            <div className="row">
+                                <div className="col-md-6 col-12">
+                                    <div className="singleTeamImgWrap">
+                                        <div className="singleTeamImg">
+                                            <img src={team} alt="" />
+                                        </div>
+                                        <h4>Lily Watson</h4>
+                                    </div>
+                                </div>
+                                <div className="col-md-6 col-12">
+                                    <div className="singleTeamContent">
+                                        <h4>Important Information</h4>
+                                        <ul className="teamMembarInfo">
+                                            {teamMembarInfo.map((teamInfo, i) => (
+                                                <li key={i}>
+                                                    <span>{teamInfo.level}</span>
+                                                    {teamInfo.text}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                        <ul className="socialShare">
+                                            <li><a href="#"><i className="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i className="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="col-12">
+                                    <div className="singleTeamInfo">
+                                        <h3>Personal Experience</h3>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words,</p>
+                                        <h5>Education</h5>
+                                        <ul>
+                                            {teamContents.map(teamContent => (
+                                                <li key={teamContent}>{teamContent}</li>
+                                            ))}
+                                        </ul>
+                                        <h5>Language</h5>
+                                        <span>French(fluent), English (fluent), Greek , chinese.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='singleTeamArea'>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-10 offset-lg-1 col-12">
+                            <div className="row">
+                                <div className="col-md-6 col-12">
+                                    <div className="singleTeamImgWrap">
+                                        <div className="singleTeamImg">
+                                            <img src={team} alt="" />
+                                        </div>
+                                        <h4>Lily Watson</h4>
+                                    </div>
+                                </div>
+                                <div className="col-md-6 col-12">
+                                    <div className="singleTeamContent">
+                                        <h4>Important Information</h4>
+                                        <ul className="teamMembarInfo">
+                                            {teamMembarInfo.map((teamInfo, i) => (
+                                                <li key={i}>
+                                                    <span>{teamInfo.level}</span>
+                                                    {teamInfo.text}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                        <ul className="socialShare">
+                                            <li><a href="#"><i className="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i className="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="col-12">
+                                    <div className="singleTeamInfo">
+                                        <h3>Personal Experience</h3>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words,</p>
+                                        <h5>Education</h5>
+                                        <ul>
+                                            {teamContents.map(teamContent => (
+                                                <li key={teamContent}>{teamContent}</li>
+                                            ))}
+                                        </ul>
+                                        <h5>Language</h5>
+                                        <span>French(fluent), English (fluent), Greek , chinese.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             {/* <Portfolio
                 title="Participated Case"
                 subTitle="Here Our Best Work"
@@ -115,12 +218,6 @@ const SingleTeamPage = () => {
                 portfolioItem={portfolioItem}
                 className="portfolioArea portfolioAreaStyleFour"
             /> */}
-            <ContactArea
-                className="contactArea"
-            />
-            <NewsLetter
-                className="newsLetterArea"
-            />
             <FooterArea />
         </Fragment>
     )

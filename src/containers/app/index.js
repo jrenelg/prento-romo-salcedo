@@ -38,6 +38,7 @@ class App extends Component {
                         <Route exact path="/blog-left" component={BlogLeftPage} />
                         <Route exact path="/blog-right" component={BlogRightPage} />
                         <Route exact path="/blog-fullwidth" component={BlogFullWidth} />
+                        <Route exact path="/team" component={SingleTeamPage} />
                     </Switch>
                 </BrowserRouter>
             </Fragment>
