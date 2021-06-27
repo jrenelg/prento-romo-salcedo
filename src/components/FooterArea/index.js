@@ -6,17 +6,17 @@ const footerLinks = [
     {
         title: 'Menú', menus: [
             { name: 'Inicio', route: '/' },
-            { name: 'Nosotros', route: 'practice' },
+            { name: 'Nosotros', route: 'about' },
+            { name: 'Servicios', route: 'practice' },
             { name: 'Equipo', route: 'team' },
-            { name: 'Servicios', route: 'case' },
-            { name: 'Contacto', route: 'blog' },
+            { name: 'Contacto', route: 'contact' },
         ]
     },
     {
         title: 'Especialidad Legal', menus: [
-            { name: 'Derecho Corporativo', route: 'home' },
-            { name: 'Propiedad Industrial', route: 'home' },
-            { name: 'Propiedad Intelectual', route: 'home' },
+            { name: 'Derecho Corporativo'},
+            { name: 'Propiedad Industrial'},
+            { name: 'Propiedad Intelectual'},
 
         ]
     },
@@ -51,7 +51,7 @@ const FooterArea = () => {
                                     <h3>{menu.title}</h3>
                                     <ul>
                                         {menu.menus.map((item, i) => (
-                                            <li key={i}>{item.route ? <Link to={`/${item.route}`}>{item.name}</Link> : `${item.name}`}</li>
+                                            <li key={i}>{item.route ? <Link to={`/${(item.route === '/') ? '' : item.route}`}>{item.name}</Link> : `${item.name}`}</li>
                                         ))}
                                     </ul>
                                 </div>

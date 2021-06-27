@@ -8,10 +8,10 @@ import Portfolio from '../../../components/Portfolio'
 import ContactArea from '../../../components/ContactArea'
 
 // images
-import breadcumb from '../../../images/breadcumb/1.jpg'
+import breadcumb from '../../../images/breadcumb/equipo.jpg'
 import team1 from '../../../images/Attorneys-single/t1.jpg'
 import team2 from '../../../images/Attorneys-single/t2.jpg'
-import team3 from '../../../images/Attorneys-single/t3.jpg'
+//import team3 from '../../../images/Attorneys-single/t3.jpg'
 import portfolio1 from '../../../images/studies/1.jpg'
 import portfolio2 from '../../../images/studies/2.jpg'
 import portfolio3 from '../../../images/studies/3.jpg'
@@ -19,9 +19,8 @@ import portfolio3 from '../../../images/studies/3.jpg'
 import './style.scss'
 
 const breadcumbMenu = [
-    { name: 'Home', route: '/' },
-    { name: 'Attorneys', route: '/attorneys' },
-    { name: 'Attorneys Details' }
+    { name: 'Inicio', route: '/' },
+    { name: 'Equipo' }
 ]
 const teamMembarInfo = [
     { level: 'Positon: ', text: 'Siniour Lawyer' },
@@ -53,7 +52,7 @@ const SingleTeamPage = () => {
             </header>
             <Breadcumb
                 className="breadcumbArea"
-                title="Our Attorneys"
+                title="Equipo"
                 breadcumbMenu={breadcumbMenu}
                 background={breadcumb}
             />
@@ -62,7 +61,7 @@ const SingleTeamPage = () => {
                     <div className="row">
                         <div className="col-lg-10 offset-lg-1 col-12">
                             <div className="row">
-                                <div className="col-md-6 col-12">
+                                <div className="col-md-12 col-12">
                                     <div className="singleTeamImgWrap">
                                         <div className="singleTeamImg">
                                             <img src={team1} alt="" />
@@ -70,25 +69,6 @@ const SingleTeamPage = () => {
                                         <h4>Lily Watson</h4>
                                     </div>
                                 </div>
-                                <div className="col-md-6 col-12">
-                                    <div className="singleTeamContent">
-                                        <h4>Important Information</h4>
-                                        <ul className="teamMembarInfo">
-                                            {teamMembarInfo.map((teamInfo, i) => (
-                                                <li key={i}>
-                                                    <span>{teamInfo.level}</span>
-                                                    {teamInfo.text}
-                                                </li>
-                                            ))}
-                                        </ul>
-                                        <ul className="socialShare">
-                                            <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
                                 <div className="col-12">
                                     <div className="singleTeamInfo">
                                         <h3>Personal Experience</h3>
@@ -114,85 +94,15 @@ const SingleTeamPage = () => {
                     <div className="row">
                         <div className="col-lg-10 offset-lg-1 col-12">
                             <div className="row">
-                                <div className="col-md-6 col-12">
+                                <div className="col-md-12 col-12">
                                     <div className="singleTeamImgWrap">
                                         <div className="singleTeamImg">
                                             <img src={team2} alt="" />
                                         </div>
-                                        <h4>Lily Watson</h4>
+                                        <h4>Fernanda Salcedo</h4>
                                     </div>
                                 </div>
-                                <div className="col-md-6 col-12">
-                                    <div className="singleTeamContent">
-                                        <h4>Important Information</h4>
-                                        <ul className="teamMembarInfo">
-                                            {teamMembarInfo.map((teamInfo, i) => (
-                                                <li key={i}>
-                                                    <span>{teamInfo.level}</span>
-                                                    {teamInfo.text}
-                                                </li>
-                                            ))}
-                                        </ul>
-                                        <ul className="socialShare">
-                                            <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div className="col-12">
-                                    <div className="singleTeamInfo">
-                                        <h3>Personal Experience</h3>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-                                        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words,</p>
-                                        <h5>Education</h5>
-                                        <ul>
-                                            {teamContents.map(teamContent => (
-                                                <li key={teamContent}>{teamContent}</li>
-                                            ))}
-                                        </ul>
-                                        <h5>Language</h5>
-                                        <span>French(fluent), English (fluent), Greek , chinese.</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className='singleTeamArea'>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-10 offset-lg-1 col-12">
-                            <div className="row">
-                                <div className="col-md-6 col-12">
-                                    <div className="singleTeamImgWrap">
-                                        <div className="singleTeamImg">
-                                            <img src={team3} alt="" />
-                                        </div>
-                                        <h4>Lily Watson</h4>
-                                    </div>
-                                </div>
-                                <div className="col-md-6 col-12">
-                                    <div className="singleTeamContent">
-                                        <h4>Important Information</h4>
-                                        <ul className="teamMembarInfo">
-                                            {teamMembarInfo.map((teamInfo, i) => (
-                                                <li key={i}>
-                                                    <span>{teamInfo.level}</span>
-                                                    {teamInfo.text}
-                                                </li>
-                                            ))}
-                                        </ul>
-                                        <ul className="socialShare">
-                                            <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+
                                 <div className="col-12">
                                     <div className="singleTeamInfo">
                                         <h3>Personal Experience</h3>

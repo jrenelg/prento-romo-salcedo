@@ -30,14 +30,14 @@ const heroSliders = [
         title: 'Somos especialista ',
         subTitle: 'en orientar y asesorar.',
         text: 'Romo, Salcedo & Asociados',
-        button: 'Contact us now'
+        button: 'Contáctanos'
     },
     {
         images: 'slideWrapperTwo',
         title: 'Acompañamiento',
         subTitle: 'legal personalizado.',
         text: 'Romo, Salcedo & Asociados',
-        button: 'Contact us now'
+        button: 'Contáctanos'
     },
 ]
 
@@ -150,9 +150,6 @@ const HomePageOne = () => {
                 title="Nuestros Servicios"
                 subTitle="Área de Práctica"
                 services={services}
-            />
-            <Testmonial
-                className="testmonialArea pt100"
             />
             <FooterArea/>
         </Fragment>

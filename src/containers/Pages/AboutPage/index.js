@@ -6,8 +6,8 @@ import AboutRomo from '../../../components/AboutRomo'
 import Testmonial from "../../../components/Testmonial";
 import FooterArea from '../../../components/FooterArea'
 // images
-import about from '../../../images/about/2.jpg'
-import breadcumb from '../../../images/breadcumb/1.jpg'
+import about from '../../../images/about/3.jpg'
+import breadcumb from '../../../images/breadcumb/nosotros.jpg'
 
 import './style.scss'
 const aboutText = [
@@ -62,7 +62,7 @@ const services = [
 ]
 
 const breadcumbMenu = [
-    {name:'Home',route:'/'},
+    {name:'Inicio',route:'/'},
     {name:'Nosotros'}
 ]
 
@@ -74,7 +74,7 @@ const AboutPage = () => {
             </header>
             <Breadcumb 
                 className="breadcumbArea"
-                title="About Us"
+                title="Nostros"
                 breadcumbMenu={breadcumbMenu}
                 background={breadcumb}
             />
@@ -92,10 +92,9 @@ const AboutPage = () => {
                 pragraphs3={aboutText3}
                 images={about}
                 orderLast="order-last"
+                /* DESCOMENTAR videId property PARA ACTIVAR VIDEO 
                 videoId="XxVg_s8xAms"
-            />
-            <Testmonial
-                className="testmonialArea pt100"
+                */
             />
             <FooterArea/>
         </Fragment>

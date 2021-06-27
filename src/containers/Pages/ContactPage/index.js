@@ -6,13 +6,13 @@ import NewsLetter from '../../../components/Newsletter'
 import FooterArea from '../../../components/FooterArea'
 import Form from '../../../components/Form'
 // images
-import breadcumb from '../../../images/breadcumb/1.jpg'
+import breadcumb from '../../../images/breadcumb/contacto.jpg'
 
 import './style.scss'
 
 const breadcumbMenu = [
-    { name: 'Home', route: '/' },
-    { name: 'Contact', },
+    { name: 'Inicio', route: '/' },
+    { name: 'Contacto', },
 ]
 
 const ContactPage = () => {
@@ -23,7 +23,7 @@ const ContactPage = () => {
             </header>
             <Breadcumb
                 className="breadcumbArea"
-                title="Contact"
+                title="Contacto"
                 breadcumbMenu={breadcumbMenu}
                 background={breadcumb}
             />

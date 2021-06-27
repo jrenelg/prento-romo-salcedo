@@ -79,8 +79,8 @@ const services = [
 ]
 
 const breadcumbMenu = [
-    {name:'Home',route:'/'},
-    {name:'Practice area'}
+    {name:'Inicio',route:'/'},
+    {name:'Servicios'}
 ]
 
 const PracticePage = () => {
@@ -91,7 +91,7 @@ const PracticePage = () => {
             </header>
             <Breadcumb 
                 className="breadcumbArea"
-                title="Practice Area"
+                title="Servicios"
                 breadcumbMenu={breadcumbMenu}
                 background={breadcumb}
             />
@@ -101,9 +101,6 @@ const PracticePage = () => {
                 title="Mercado Nacional e Internacional"
                 subTitle="Asesoría a Clientes de Distintos Sectores del"
                 services={services}
-            />
-            <Testmonial
-                className="testmonialArea pt100"
             />
             <FooterArea/>
         </Fragment>
