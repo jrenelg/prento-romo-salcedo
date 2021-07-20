@@ -21,7 +21,6 @@ const ServiceArea = ({ className, title, subTitle,services }) => {
                                 </div>
                                 <div className="serviceContent">
                                     <h3>{service.title}</h3>
-                                    <p>{service.content}</p>   
                                 </div>
                             </div>
                         </div>

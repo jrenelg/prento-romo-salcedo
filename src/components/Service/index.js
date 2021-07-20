@@ -5,6 +5,7 @@ const services = [
     { icon: 'icon-f100', subtitle: 'Derecho', title: 'Corporativo' },
     { icon: 'icon-f101', subtitle: 'Propiedad', title: 'Industrial' },
     { icon: 'icon-f102', subtitle: 'Propiedad', title: 'Intelectual' },
+    { icon: 'icon-f115', subtitle: 'Protección de', title: 'Datos Personales' },
     
 ]
 const Service = props => {
@@ -13,7 +14,7 @@ const Service = props => {
             <div className="container">
                 <div className="row">
                     {services.map((service, i) => (
-                        <div key={i} className="col-lg-4 col-md-6">
+                        <div key={i} className="col-lg-6 col-md-6">
                             <div className="serviceItem">
                                 <div className="serviceIcon">
                                     <i className={service.icon}></i>

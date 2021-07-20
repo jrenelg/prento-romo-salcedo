@@ -17,6 +17,7 @@ const footerLinks = [
             { name: 'Derecho Corporativo'},
             { name: 'Propiedad Industrial'},
             { name: 'Propiedad Intelectual'},
+            { name: 'Protección de Datos Personales'},
 
         ]
     },
@@ -25,8 +26,8 @@ const footerLinks = [
             { name: 'Calzada La Misión 210' },
             { name: 'Misión del Campanario', },
             { name: 'Aguascalientes, Ags.', },
-            { name: 'T. 449 116 05 86', },
-            { name: 'Email: fernanda@romosalcedo.com', },
+            { name: 'elena@romosalcedo.com', },
+            { name: 'fernanda@romosalcedo.com', },
         ]
     },
 ]
@@ -65,7 +66,7 @@ const FooterArea = () => {
                     <div className="footerBottomContent">
                         <div className="row">
                             <div className="col-md-8 col-sm-10 col-12">
-                                <span>Políticas de Privacidad | © 2020 Romo, Salcedo & Asociados. Todos los Derechos Reservados</span>
+                                <span><a href="/docs/aviso_de_privacidad.pdf" target="_blank">Aviso de Privacidad</a> | <a href="/docs/aviso_legal.pdf" target="_blank">Aviso Legal</a> | © 2021 Romo, Salcedo & Asociados. Todos los Derechos Reservados</span>
                             </div>
                             <div className="col-md-4 col-sm-2 col-12">
                                 <ul className="socialListFooter">

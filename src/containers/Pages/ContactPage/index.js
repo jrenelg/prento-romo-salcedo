@@ -39,10 +39,8 @@ const ContactPage = () => {
                                 <h4>Dirección</h4>
                                 <span>Calzada La Misión 210, Misión del Campanario, Aguascalientes, Ags.
 </span>
-                                <h4>Teléfono</h4>
-                                <span>449 116 05 86</span>
-                                
                                 <h4>Email</h4>
+                                <span>elena@romosalcedo.com</span>
                                 <span>fernanda@romosalcedo.com</span>
                             </div>
                         </div>

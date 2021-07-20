@@ -18,63 +18,51 @@ const aboutText = [
 const services = [
     {
         icon: 'icon-f118',
-        title: 'Automitriz',
-        content: 'Proveedores de países como España, Bélgica, Japón y Canadá.'
+        title: 'Automitriz'
     },
     {
         icon: 'icon-f119',
-        title: 'Agronegocios',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Agronegocios'
     },
     {
         icon: 'icon-f120',
-        title: 'Construcción',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Construcción'
     },
     {
         icon: 'icon-f121',
-        title: 'Arquitectura Empresarial',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Arquitectura Empresarial'
     },
     {
         icon: 'icon-f122',
-        title: 'Capital Humano',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Capital Humano'
     },
     {
         icon: 'icon-f123',
-        title: 'Comunicación y Prensa',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Comunicación y Prensa'
     },
     {
         icon: 'icon-f124',
-        title: 'Marketing',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Marketing'
     },
     {
         icon: 'icon-f125',
-        title: 'Adquisición de Negocios',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Adquisición de Negocios'
     },
     {
         icon: 'icon-f126',
-        title: 'Fusión de Empresas',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Fusión de Empresas'
     },
     {
         icon: 'icon-f127',
-        title: 'Due Diligence',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Due Diligence'
     },
     {
         icon: 'icon-f128',
-        title: 'Modelos Industriales',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Modelos Industriales'
     },
     {
         icon: 'icon-f129',
-        title: 'Energía Alternativa',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Energía Alternativa'
     },
 ]
 

@@ -11,6 +11,7 @@ import ContactArea from '../../../components/ContactArea'
 import breadcumb from '../../../images/breadcumb/equipo.jpg'
 import team1 from '../../../images/Attorneys-single/t1.jpg'
 import team2 from '../../../images/Attorneys-single/t2.jpg'
+import team3 from '../../../images/Attorneys-single/t3.jpg'
 //import team3 from '../../../images/Attorneys-single/t3.jpg'
 import portfolio1 from '../../../images/studies/1.jpg'
 import portfolio2 from '../../../images/studies/2.jpg'
@@ -66,22 +67,17 @@ const SingleTeamPage = () => {
                                         <div className="singleTeamImg">
                                             <img src={team1} alt="" />
                                         </div>
-                                        <h4>Lily Watson</h4>
+                                        <h4>Elena Romo López</h4>
                                     </div>
                                 </div>
                                 <div className="col-12">
                                     <div className="singleTeamInfo">
-                                        <h3>Personal Experience</h3>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-                                        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words,</p>
-                                        <h5>Education</h5>
-                                        <ul>
-                                            {teamContents.map(teamContent => (
-                                                <li key={teamContent}>{teamContent}</li>
-                                            ))}
-                                        </ul>
-                                        <h5>Language</h5>
-                                        <span>French(fluent), English (fluent), Greek , chinese.</span>
+                                        <h3>Experiencia Personal</h3>
+                                        <p>Egresada de la Universidad Cuauhtémoc, Campus Aguascalientes con estudios de Maestría en Derecho por la Universidad Panamericana, Campus Bonaterra.</p>
+                                        <p>Aspirante a Corredor Público por la Dirección General de Normatividad Mercantil de la Dirección de Correduría Pública de la Secretaría de Economía. Estudios en materia de derecho Societario, valuación y derecho mercantil, impartidos por la Dirección General de Normatividad Mercantil de la Dirección de Correduría Pública de la Secretaría de Economía.</p>
+                                        <p>Profesora de la asignatura de Contratos Mercantiles y Derecho Societario de la Escuela de Ciencias Económicas y Empresariales de la Universidad Panamericana, Campus Bonaterra.</p>
+                                        <h5>Idioma</h5>
+                                        <span>Inglés.</span>
                                     </div>
                                 </div>
                             </div>
@@ -99,23 +95,47 @@ const SingleTeamPage = () => {
                                         <div className="singleTeamImg">
                                             <img src={team2} alt="" />
                                         </div>
-                                        <h4>Fernanda Salcedo</h4>
+                                        <h4>Fernanda Salcedo Romo</h4>
                                     </div>
                                 </div>
 
                                 <div className="col-12">
                                     <div className="singleTeamInfo">
-                                        <h3>Personal Experience</h3>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-                                        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words,</p>
-                                        <h5>Education</h5>
-                                        <ul>
-                                            {teamContents.map(teamContent => (
-                                                <li key={teamContent}>{teamContent}</li>
-                                            ))}
-                                        </ul>
-                                        <h5>Language</h5>
-                                        <span>French(fluent), English (fluent), Greek , chinese.</span>
+                                        <h3>Experiencia Personal</h3>
+                                        <p>Egresada de la Universidad Panamericana, Campus Bonaterra, con estudios de postgrado en Derecho Corporativo y Económico; Posgrado en Derecho Societario por esta misma casa de estudios.</p>
+                                        <p>Maestría en Propiedad Industrial, Derechos de Autor y Nuevas Tecnologías por la Universidad Panamericana Campus Bonaterra. A su vez cuenta con estudios en materia de Propiedad Industrial y Derechos de Autor, impartidos por el Instituto Mexicano de la Propiedad Industrial así como por el Instituto Nacional de Derechos de Autor. De igual forma ha realizado estudios en materia de Protección de Variedades Vegetales impartido por la Organización Mundial de la Propiedad Industrial.</p>
+                                        <p>Profesora de la asignatura de Contratos Mercantiles y Derecho Societario de la Escuela de Ciencias Económicas y Empresariales de la Universidad Panamericana Campus Bonaterra.</p>
+                                        <h5>Idioma</h5>
+                                        <span>Inglés.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='singleTeamArea'>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-10 offset-lg-1 col-12">
+                            <div className="row">
+                                <div className="col-md-12 col-12">
+                                    <div className="singleTeamImgWrap">
+                                        <div className="singleTeamImg">
+                                            <img src={team3} alt="" />
+                                        </div>
+                                        <h4>Fernanda Salcedo Romo</h4>
+                                    </div>
+                                </div>
+
+                                <div className="col-12">
+                                    <div className="singleTeamInfo">
+                                        <h3>Experiencia Personal</h3>
+                                        <p>Egresada de la Universidad Panamericana, Campus Bonaterra, con estudios de postgrado en Derecho Corporativo y Económico; Posgrado en Derecho Societario por esta misma casa de estudios.</p>
+                                        <p>Maestría en Propiedad Industrial, Derechos de Autor y Nuevas Tecnologías por la Universidad Panamericana Campus Bonaterra. A su vez cuenta con estudios en materia de Propiedad Industrial y Derechos de Autor, impartidos por el Instituto Mexicano de la Propiedad Industrial así como por el Instituto Nacional de Derechos de Autor. De igual forma ha realizado estudios en materia de Protección de Variedades Vegetales impartido por la Organización Mundial de la Propiedad Industrial.</p>
+                                        <p>Profesora de la asignatura de Contratos Mercantiles y Derecho Societario de la Escuela de Ciencias Económicas y Empresariales de la Universidad Panamericana Campus Bonaterra.</p>
+                                        <h5>Idioma</h5>
+                                        <span>Inglés.</span>
                                     </div>
                                 </div>
                             </div>

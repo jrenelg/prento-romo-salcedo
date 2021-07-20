@@ -29,16 +29,6 @@ const AboutRomo = ({ subTitle, title, videoId, className, signature, pragraphs,i
                             {pragraphs.map((pragraph, i) => (
                                 <p key={i}>{pragraph.text}</p>
                             ))}
-                            {subTitle2 && <span>{subTitle2}</span>}
-                            <h2>{title2}</h2>
-                            {pragraphs2.map((pragraph, i) => (
-                                <p key={i}>{pragraph.text}</p>
-                            ))}
-                            {subTitle3 && <span>{subTitle3}</span>}
-                            <h2>{title3}</h2>
-                            {pragraphs3.map((pragraph, i) => (
-                                <p key={i}>{pragraph.text}</p>
-                            ))}
                             {signature && <div className="signature">
                                 <img src={signature} alt="" />
                             </div>}

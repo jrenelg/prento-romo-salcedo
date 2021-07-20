@@ -20,8 +20,8 @@ import portfolio5 from '../../../images/studies/5.jpg'
 import './style.scss'
 
 const aboutText = [
-    { text: 'Sómos una firma de abogados dedicada a la prestación de servicios Corporativos, de Propiedad Industrial e Intelectual.' },
-    { text: 'Nuestra toma de decisiones y acciones de forma íntegra, así como nuestro compromiso con la excelencia en cada uno de los servicios que prestamos nos permite satisfacer las expectativas, promover la solidez y el desarrollo de nuestros clientes.' },
+    { text: 'Sómos una firma de abogados dedicada a la prestación de servicios Corporativos, de Propiedad Industrial e Intelectual, así como de Protección de Datos Personales en posesión de particulares.' },
+    { text: 'Nuestra toma de decisiones y acciones de forma íntegra, así como nuestro compromiso con la excelencia en cada uno de los servicios que prestamos, nos permite satisfacer las expectativas, promover la solidez y el desarrollo de nuestros clientes.' },
 ]
 
 const heroSliders = [
@@ -44,78 +44,63 @@ const heroSliders = [
 const services = [
     {
         icon: 'icon-f103',
-        title: 'Creación de Empresas',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Creación de Empresas'
     },
     {
         icon: 'icon-f104',
-        title: 'Contratos Mercantiles',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Contratos Mercantiles'
     },
     {
         icon: 'icon-f105',
-        title: 'Actas de Asamblea',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Actas de Asamblea'
     },
     {
         icon: 'icon-f106',
-        title: 'Contratos de Confidencialidad',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Contratos de Confidencialidad'
     },
     {
         icon: 'icon-f107',
-        title: 'Libros Corporativos',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Libros Corporativos'
     },
     {
         icon: 'icon-f108',
-        title: 'Contratos en Materia Autoral',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Contratos en Materia Autoral'
     },
     {
         icon: 'icon-f109',
-        title: 'Términos y Condiciones para Sitios Web',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Términos y Condiciones para Sitios Web'
     },
     {
         icon: 'icon-f110',
-        title: 'Certificados de Licitud de Título y Contenido ',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Certificados de Licitud de Título y Contenido '
     },
     {
         icon: 'icon-f111',
-        title: 'Esquemas de Protección Accionaria',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Esquemas de Protección Accionaria'
     },
     {
         icon: 'icon-f112',
-        title: 'Esquemas de Secreto Industrial',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Esquemas de Secreto Industrial'
     },
     {
         icon: 'icon-f113',
-        title: 'Contratos de Franquicia',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Contratos de Franquicia'
     },
     {
         icon: 'icon-f114',
-        title: 'Registro de Marca',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Protección de Marcas y Patentes'
     },
     {
         icon: 'icon-f115',
-        title: 'Registro de Patentes',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Protección de Datos Personales'
     },
     {
         icon: 'icon-f116',
-        title: 'Transmisión de Derechos',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Transmisión de Derechos'
     },
     {
         icon: 'icon-f117',
-        title: 'Registro Nacional de Inversión Extranjera',
-        content: 'Cumplimieto de obligaciones '
+        title: 'Registro Nacional de Inversión Extranjera'
     },
 ]
 

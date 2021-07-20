@@ -11,7 +11,7 @@ import breadcumb from '../../../images/breadcumb/nosotros.jpg'
 
 import './style.scss'
 const aboutText = [
-    { text: 'Brindar servicios legales especializados en el área Corporativa, de Propiedad Industrial e Intelectual con excelencia profesional, visión integral, trato personalizado y compromiso ético.' },
+    { text: 'Tenemos una trayectoria dentro del mercado de mas de 10 años, buscando en cada momento dar soluciones ad hoc a las necesidades y retos de nuestros clientes dentro del mercado nacional e internacional.' },
   
 ]
 const aboutText2 = [
@@ -81,7 +81,7 @@ const AboutPage = () => {
             <Service className="serviceArea mt-0" />
             <AboutRomo
                 className="aboutArea aboutAreaStyleTwo"
-                title="Misión"
+                title="Nosotros"
                 subTitle="Romo, Salcedo & Asociados"
                 pragraphs={aboutText}
                 title2="Visión"
