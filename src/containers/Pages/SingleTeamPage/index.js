@@ -124,16 +124,16 @@ const SingleTeamPage = () => {
                                         <div className="singleTeamImg">
                                             <img src={team3} alt="" />
                                         </div>
-                                        <h4>Fernanda Salcedo Romo</h4>
+                                        <h4>Alejandro Salcedo Romo</h4>
                                     </div>
                                 </div>
 
                                 <div className="col-12">
                                     <div className="singleTeamInfo">
                                         <h3>Experiencia Personal</h3>
-                                        <p>Egresada de la Universidad Panamericana, Campus Bonaterra, con estudios de postgrado en Derecho Corporativo y Económico; Posgrado en Derecho Societario por esta misma casa de estudios.</p>
-                                        <p>Maestría en Propiedad Industrial, Derechos de Autor y Nuevas Tecnologías por la Universidad Panamericana Campus Bonaterra. A su vez cuenta con estudios en materia de Propiedad Industrial y Derechos de Autor, impartidos por el Instituto Mexicano de la Propiedad Industrial así como por el Instituto Nacional de Derechos de Autor. De igual forma ha realizado estudios en materia de Protección de Variedades Vegetales impartido por la Organización Mundial de la Propiedad Industrial.</p>
-                                        <p>Profesora de la asignatura de Contratos Mercantiles y Derecho Societario de la Escuela de Ciencias Económicas y Empresariales de la Universidad Panamericana Campus Bonaterra.</p>
+                                        <p>Egresado de la Universidad Panamericana, Campus Bonaterra. Mestría en Ciencias Jurídicas por la Universidad Panamericana, Campus Bonaterra.</p>
+                                        <p>Master en Derechos Humanos, Paz y Desarrollo Sostenible por la Universidad de Valencia. Doctorado en Sostentabilidad y Paz, por la Universidad de Valencia.</p>
+                                        <p>Profesor del Área de Factor Humano en IPADE Business School, así como consultor de diversas empresas en temas de factor humano y ética empresarial.</p>
                                         <h5>Idioma</h5>
                                         <span>Inglés.</span>
                                     </div>

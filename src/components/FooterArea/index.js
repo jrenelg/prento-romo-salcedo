@@ -70,8 +70,7 @@ const FooterArea = () => {
                             </div>
                             <div className="col-md-4 col-sm-2 col-12">
                                 <ul className="socialListFooter">
-                                    <li><a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://twitter.com/romo_salcedo" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
                                 </ul>
                             </div>
                         </div>
