@@ -27,8 +27,8 @@ const aboutText = [
 const heroSliders = [
     {
         images: 'slideWrapperOne',
-        title: 'Somos especialista ',
-        subTitle: 'en orientar y asesorar.',
+        title: 'Especialistas en ',
+        subTitle: 'orientar y asesorar.',
         text: 'Romo, Salcedo & Asociados',
         button: 'Contáctanos'
     },
