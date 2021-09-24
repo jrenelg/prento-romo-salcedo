@@ -67,7 +67,7 @@ const SingleTeamPage = () => {
                                         <div className="singleTeamImg">
                                             <img src={team1} alt="" />
                                         </div>
-                                        <h4>Elena Romo López</h4>
+                                        <h4>María Elena Romo López</h4>
                                     </div>
                                 </div>
                                 <div className="col-12">
