@@ -1,17 +1,20 @@
 import React, { Component } from 'react'
 import Joi from 'joi-browser'
-import { toast } from 'react-toastify';
+import { toast, ToastContainer } from "react-toastify";
+import romoApi from '../../api/romo';
+
+import 'react-toastify/dist/ReactToastify.css';
 import './style.scss'
+
+
 class Form extends Component {
     state = {
         name: '',
         phone: '',
         email: '',
-        address: '',
-        description: '',
+        message: '',
         error: {}
     }
-
     schema = {
         email: Joi.string().email({ minDomainAtoms: 2 }).required().error(errors => {
             errors.forEach(err => {
@@ -46,17 +49,16 @@ class Form extends Component {
             });
             return errors;
         }),
-        description: Joi.string().required().error(errors => {
+        message: Joi.string().required().error(errors => {
             errors.forEach(err => {
                 switch (err.type) {
                     default:
-                        err.message = 'description can not be Empity';
+                        err.message = 'message can not be Empity';
                         break;
                 }
             });
             return errors;
         }),
-        address: Joi.string(),
     }
     changeHandler = event => {
         const error = { ...this.state.error };
@@ -90,7 +92,7 @@ class Form extends Component {
             name: this.state.name,
             email: this.state.email,
             phone: this.state.phone,
-            description: this.state.description,
+            message: this.state.message,
         }
         const { error } = Joi.validate(form, this.schema, options)
         if (!error) return null;
@@ -100,7 +102,7 @@ class Form extends Component {
         return errors;
     };
 
-    submitHandler = event => {
+    submitHandler = async event => {
         event.preventDefault()
         const error = this.validate();
         if (error) {
@@ -112,21 +114,51 @@ class Form extends Component {
                 name: '',
                 phone: '',
                 email: '',
-                address: '',
-                description: '',
+                message: '',
             })
             console.log(
                 'Name' + '=' + this.state.name,
                 'Phone' + '=' + this.state.phone,
                 'Email' + '=' + this.state.email,
-                'Address' + '=' + this.state.address,
-                'Description' + '=' + this.state.description,
+                'Message' + '=' + this.state.message,
             )
-            toast.success('Please check Consol log')
+            const headers = {
+                'Content-Type': 'multipart/form-data'
+            }
+            var bodyFormData = new FormData();
+            bodyFormData.append('email',  this.state.email);
+            bodyFormData.append('name',  this.state.name);
+            bodyFormData.append('phone',  this.state.phone);
+            bodyFormData.append('message',  this.state.message);
+            await romoApi.post("/phpmailer/contact.php", bodyFormData, {headers})
+            .then(res => {
+                console.log(res);
+                toast.success("Mensaje enviado!", {
+                    position: "top-right",
+                    pauseOnHover: false,
+                    draggable: false,
+                    progress: undefined,
+                });
+            })
+            .catch(err => {
+                console.log(err);
+                toast.success("Console log!", {
+                    position: "top-right",
+                    pauseOnHover: false,
+                    draggable: false,
+                    progress: undefined,
+                });
+            })
+            
         }
     }
 
     render() {
+
+        toast.configure({
+            autoClose: 10000,
+            draggable: true,
+        });
 
         const options = [
             { level: 'Family Law', value: 'family law' },
@@ -165,7 +197,7 @@ class Form extends Component {
                             {this.state.error.phone && <p>{this.state.error.phone}</p>}
                         </div>
                     </div>
-                    <div className="col-sm-6 col-12">
+                    <div className="col-12">
                         <div className="formInput">
                             <input
                                 placeholder="Email"
@@ -177,50 +209,20 @@ class Form extends Component {
                             {this.state.error.email && <p>{this.state.error.email}</p>}
                         </div>
                     </div>
-                    <div className="col-sm-6 col-12">
-                        <div className="formInput">
-                            {this.props.addressInfo ? (
-                                <div className="formInput">
-                                    <input
-                                        placeholder="Direacción"
-                                        value={this.state.address}
-                                        name="address"
-                                        onChange={this.changeHandler}
-                                        className="form-control"
-                                        type="address" />
-                                </div>
-                            ) : (
-                                    <select
-                                        value={this.state.address}
-                                        className="form-control"
-                                        onChange={this.changeHandler}
-                                        name="address">
-                                        {options.map(option => (
-                                            <option
-                                                key={option.value}
-                                                value={option.value}
-                                            >
-                                                {option.level}
-                                            </option>
-                                        ))}
-                                    </select>
-                                )}
-
-                        </div>
-                    </div>
                     <div className="col-12">
                         <div className="formInput">
                             <textarea
                                 className="form-control"
-                                value={this.state.description}
+                                value={this.state.message}
                                 onChange={this.changeHandler}
                                 placeholder="Mensaje..."
-                                name="description" />
-                            {this.state.error.description && <p>{this.state.error.description}</p>}
+                                name="message" />
+                            {this.state.error.message && <p>{this.state.error.message}</p>}
                         </div>
                     </div>
                     <div className="col-12">
                         <button type="submit">Enviar</button>
+                        <ToastContainer closeButton={false} position="bottom-right" />
                     </div>
                 </div>
             </form>
